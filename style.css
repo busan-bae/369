@@ -1,0 +1,97 @@
+body{
+    background-image: url(soju.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "East Sea Dokdo", serif;
+}
+
+
+.main-box {
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+    background-color: rgba(247, 243, 242, 0.7);
+    text-align: center;
+}
+
+.InputBtn {
+    justify-content: center;
+}
+
+.title-1 {
+    color: blue;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.title-2 {
+    font-size: 7vw;
+    font-weight: bold;   
+}
+
+.title-3{
+    font-size: 6vw;
+    font-weight: bold; 
+}
+
+.title-3-1{
+    color: red;
+}
+
+.form-control {
+    height: 80px;
+    font-size: 3vw;
+    text-align: center;
+
+}
+
+.button-size {
+    height: 80px;
+    width: 100px;
+    font-size: 30pt;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+.btn-color-1 {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+.btn-color-2 {
+    background-color: orange;
+    border-color: orange;
+}
+
+.main-img {
+    height: 20vh;
+    width: 20vw;
+}
+
+@media screen and (max-width:48rem) {
+    .form-control {
+        font-size: 8vw;
+        max-width: 500px;
+    }
+    .title-1 { 
+        font-size: 11vw;
+    }
+
+    .title-2 {
+        font-size: 12vw;
+    }
+
+    .title-3 { 
+        font-size: 11vw;
+    }
+
+    .main-img {
+        width: 40vw;
+    }
+    
+}
+    
